@@ -14,7 +14,7 @@ import SearchFilter from './components/SearchFilter/SearchFilter';
 
 function App() {
   return (
-    <div className="container-fluid" style={{ height: '90vh' }}>
+    <div className="container-fluid mx-md-0 px-md-0" style={{ height: '90vh' }}>
       <div className="container h-100">
         <Navbar />
         <div className="row d-flex justify-content-center align-items-center h-100">

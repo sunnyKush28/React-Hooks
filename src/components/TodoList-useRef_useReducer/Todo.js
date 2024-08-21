@@ -86,7 +86,7 @@ const Todo = () => {
   };
 
   return (
-    <div className="col-7 d-flex flex-column">
+    <div className="col-md-7 d-flex flex-column">
       <div className="col ">
         <form onSubmit={handleAddTask} className="d-flex gap-3">
           {' '}
@@ -103,12 +103,12 @@ const Todo = () => {
           </button>
         </form>
       </div>
-      <div className="col">
+      <div className="col my-3">
         <table className="table w-100 ">
-          <tbody className="">
+          <tbody className=" ">
             {state.tasks.map((task, index) => {
               return (
-                <tr key={task.id}>
+                <tr key={task.id} className="bg-info">
                   <td>{index + 1}</td>
                   <td>
                     <input

@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg text-white px-5 shadow-lg">
-      <div className="container-fluid ">
+    <nav className="navbar navbar-expand-lg text-white px-md-5 shadow-lg mx-0">
+      <div className="container-fluid mx-0 px-0">
         <Link className="navbar-brand text-white">Navbar</Link>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler custom-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
