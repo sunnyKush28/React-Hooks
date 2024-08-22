@@ -60,7 +60,7 @@ const MultiStrpForm = () => {
         <table className="table my-3">
           <thead>
             <th colSpan={2}>
-              <h3>Personal Detals</h3>
+              <h3>Personal Details</h3>
             </th>
           </thead>
           <tbody>
@@ -87,7 +87,7 @@ const MultiStrpForm = () => {
           </tbody>
           <thead>
             <th colSpan={2}>
-              <h3>Contact Detals</h3>
+              <h3>Contact Details</h3>
             </th>
           </thead>
           <tbody>
